@@ -1,0 +1,854 @@
+@font-face {
+    font-family: 'YesevaOneRegular';
+    src: url('fonts/YesevaOneRegular.eot');
+    src: url('fonts/YesevaOneRegular.eot') format('embedded-opentype'), url('fonts/YesevaOneRegular.woff2') format('woff2'), url('fonts/YesevaOneRegular.woff') format('woff'), url('fonts/YesevaOneRegular.ttf') format('truetype'), url('fonts/YesevaOneRegular.svg#YesevaOneRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'GenBkBasB';
+    src: url('fonts/GenBkBasB.eot');
+    src: url('fonts/GenBkBasB.eot') format('embedded-opentype'), url('fonts/GenBkBasB.woff2') format('woff2'), url('fonts/GenBkBasB.woff') format('woff'), url('fonts/GenBkBasB.ttf') format('truetype'), url('fonts/GenBkBasB.svg#GenBkBasB') format('svg');
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('fonts/LatoRegular.eot');
+    src: url('fonts/LatoRegular.eot') format('embedded-opentype'), url('fonts/LatoRegular.woff2') format('woff2'), url('fonts/LatoRegular.woff') format('woff'), url('fonts/LatoRegular.ttf') format('truetype'), url('fonts/LatoRegular.svg#LatoRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('fonts/OpenSansBold.eot');
+    src: url('fonts/OpenSansBold.eot') format('embedded-opentype'), url('fonts/OpenSansBold.woff2') format('woff2'), url('fonts/OpenSansBold.woff') format('woff'), url('fonts/OpenSansBold.ttf') format('truetype'), url('fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansSemiBold';
+    src: url('fonts/OpenSansSemiBold.eot');
+    src: url('fonts/OpenSansSemiBold.eot') format('embedded-opentype'), url('fonts/OpenSansSemiBold.woff2') format('woff2'), url('fonts/OpenSansSemiBold.woff') format('woff'), url('fonts/OpenSansSemiBold.ttf') format('truetype'), url('fonts/OpenSansSemiBold.svg#OpenSansSemiBold') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('fonts/OpenSansRegular.eot');
+    src: url('fonts/OpenSansRegular.eot') format('embedded-opentype'), url('fonts/OpenSansRegular.woff2') format('woff2'), url('fonts/OpenSansRegular.woff') format('woff'), url('fonts/OpenSansRegular.ttf') format('truetype'), url('fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+
+.fixed-top {
+    right: 7% !important;
+    left: 10% !important;
+}
+
+.practicenav1 ul li a,
+.practicenav1 ul li a:after,
+.practicenav1 ul li a:before {
+    transition: all .5s;
+}
+
+.practicenav1 ul li a {
+    position: relative;
+    color: #fff;
+}
+
+.practicenav1 ul li a:hover {
+    color: #d10f0f;
+}
+
+.practicenav1 ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #d10f0f;
+    height: 1px;
+}
+
+.practicenav1 ul li a:hover:after {
+    width: 100%;
+}
+
+.header-icon {
+    color: #dab33e;
+}
+
+.line1 {
+    background-image: url(images/line.png);
+    height: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bars {
+    padding-top: 6px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #82b566;
+    color: #82b566;
+}
+
+.header {
+    background-image: url(images/Bg.png);
+    height: 750px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 50px 98px -15px black;
+}
+
+.navcont {
+    font-family: 'GenBkBasB';
+    color: #fff;
+    font-size: 21px;
+    text-transform: capitalize;
+    margin-left: 30px!important;
+}
+
+.twiticon {
+    color: #dab33e;
+    padding-left: 10px;
+}
+
+.bannercont {
+    font-size: 90px;
+    font-family: 'YesevaOneRegular';
+    color: #fff;
+    padding-top: 180px;
+}
+
+.bannercont1 {
+    line-height: 100px;
+}
+
+.divider {
+    padding-top: 20px!important;
+    margin-bottom: 35px;
+}
+
+.leftbutton {
+    float: left;
+    margin-left: 34%;
+}
+
+.rightbutton {
+    float: left;
+}
+
+.bookbutton {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0;
+    color: white;
+    padding: 10px 26px 10px 26px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-family: 'LatoRegular';
+}
+
+.menubutton {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0;
+    color: white;
+    padding: 10px 26px 10px 26px;
+    text-transform: uppercase;
+    margin-left: 21px;
+    font-family: 'LatoRegular';
+}
+
+.banner {
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 709px;
+}
+
+.box4 {
+    text-align: center;
+    padding-top: 100px;
+    width: 430px;
+}
+
+.justcont {
+    color: #cc9900;
+    font-size: 36px;
+    font-family: 'YesevaOneRegular';
+}
+
+.justdivider {
+    padding-top: 15px;
+}
+
+.justcont1 {
+    font-size: 16px;
+    font-family: 'LatoRegular';
+    line-height: 26px;
+    padding-top: 20px;
+}
+
+.cookimg {
+    padding-left: 20%;
+    padding-top: 50px;
+}
+
+.dishimg {
+    margin-top: 52px;
+}
+
+.banner1 {
+    background-image: url(images/SectionBackground.png);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.box {
+    width: 570px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.fine {
+    font-size: 36px;
+    font-family: 'YesevaOneRegular';
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.finedivider {
+    padding-top: 15px;
+}
+
+.finecont {
+    width: 430px;
+    font-size: 16px;
+    font-family: 'LatoRegular';
+    line-height: 26px;
+    color: #cccaca;
+    padding-top: 70px;
+    display: -webkit-inline-box;
+}
+
+.fineimg {
+    width: 430px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.image {
+    background-image: url(images/image.png);
+    height: 115px;
+    background-repeat: no-repeat;
+    width: 36%;
+    float: left;
+}
+
+.image1 {
+    background-image: url(images/image1.png);
+    height: 115px;
+    background-repeat: no-repeat;
+    width: 32%;
+    float: left;
+}
+
+.image2 {
+    background-image: url(images/image2.png);
+    height: 115px;
+    background-repeat: no-repeat;
+    width: 27%;
+    float: right;
+}
+
+.banner2 {
+    background-image: url(images/banner2.png);
+    height: auto;
+    padding-bottom: 65px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.appetisers {
+    color: #cc9900;
+    font-size: 36px;
+    font-family: 'YesevaOneRegular';
+    text-transform: capitalize;
+}
+
+.appdivider {
+    width: 230px;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.appdivider-border {
+    background-image: url(images/Divider1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 24px;
+}
+
+.tzadoller {
+    width: 430px;
+    margin-bottom: 40px;
+    margin: auto;
+}
+
+.tzatsiki {
+    float: left;
+    color: #cc9900;
+    font-size: 21px;
+    font-family: 'YesevaOneRegular', LatoRegular;
+    text-transform: capitalize;
+}
+
+.doller {
+    float: right;
+    color: #cc9900;
+    font-size: 21px;
+    font-family: 'YesevaOneRegular', LatoRegular;
+}
+
+.line {
+    padding-top: 15px;
+}
+
+.tzacont {
+    font-size: 16px;
+}
+
+.appdivider1 {
+    text-align: center;
+    margin: auto;
+    width: 230px;
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+
+.special {
+    border: 1px solid #dfcc93;
+    width: 456px;
+    margin-bottom: 30px;
+}
+
+.tzadoller1 {
+    width: 430px;
+    margin-bottom: 15px;
+}
+
+.specialtag {
+    background-color: #d7bc6f;
+    color: #fff;
+    float: right;
+    width: 440px;
+}
+
+.tzatsiki {
+    float: left;
+    color: #cc9900;
+    font-size: 21px;
+    font-family: 'YesevaOneRegular', LatoRegular;
+    text-transform: capitalize;
+    padding-top: 8px;
+}
+
+.doller {
+    float: right;
+    color: #cc9900;
+    font-size: 21px;
+    padding-top: 8px;
+    font-family: 'YesevaOneRegular', LatoRegular;
+}
+
+.banner3 {
+    background-image: url(images/banner3.png);
+    height: 758px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1 {
+    width: 770px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 558px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.guest {
+    color: #fff;
+    font-size: 36px;
+    font-family: 'YesevaOneRegular';
+    text-transform: capitalize;
+    padding-top: 80px;
+}
+
+.guestdivider {
+    padding-top: 5px;
+}
+
+.guestcont {
+    width: 630px;
+    font-size: 25px;
+    font-family: LatoRegular;
+    line-height: 40px;
+    color: #cccaca;
+    display: -webkit-inline-box;
+    padding-top: 30px;
+}
+
+.guestfood {
+    font-size: 18px;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.banner4 {
+    background-image: url(images/banner4.png);
+    height: 710px;
+    background-position: center;
+    background-size: cover;
+}
+
+.dishimg1 {
+    margin-top: 100px;
+    background-image: url(images/dishimg1.png);
+    height: 508px;
+    background-repeat: no-repeat;
+}
+
+.dishpadding {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+.dishimg2 {
+    margin-top: 100px;
+    background-image: url(images/dishimg2.png);
+    height: 508px;
+    background-repeat: no-repeat;
+}
+
+.rightfood {
+    font-size: 36px;
+    color: #cc9900;
+    font-family: 'YesevaOneRegular';
+}
+
+.box3 {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.rightcont {
+    font-size: 16px;
+    font-family: 'LatoRegular';
+    color: #7a7a7a;
+    width: 430px;
+    display: inline-block;
+    line-height: 26px;
+    padding-top: 15px;
+}
+
+.rightcont1 {
+    font-size: 16px;
+    font-family: 'LatoRegular';
+    color: #7a7a7a;
+    width: 430px;
+    display: inline-block;
+    line-height: 26px;
+    padding-top: 15px;
+}
+
+.form {
+    width: 430px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.form-control:focus {
+    border: 1px solid #c9a131 !important;
+}
+
+.form-control,
+.btn {
+    box-shadow: 0px 0px 0px #c9a131 !important;
+}
+
+.name {
+    font-size: 14px;
+    font-family: 'OpenSansBold';
+    color: #c9a131;
+}
+
+.booknow {
+    background-color: #c9a131;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'OpenSansRegular';
+    border-radius: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn:hover {
+    color: #fff !important;
+}
+
+.button {
+    margin-top: 22px;
+    text-align: center;
+}
+
+.banner5 {
+    background-color: #191919;
+    height: 320px;
+}
+
+.box2 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.about {
+    font-size: 21px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'YesevaOneRegular';
+}
+
+.decoration {
+    padding-top: 20px;
+}
+
+.aboutcont {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 28px;
+}
+
+.aboutcont1 {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 28px;
+}
+
+.aboutcont2 {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 28px;
+    font-family: 'OpenSansBold';
+}
+
+.icons {
+    padding-top: 33px;
+}
+
+.icon {
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.tzacont1 {
+    border-top: 1px solid #dfd1a1;
+    padding-top: 8px;
+}
+
+@media only screen and (max-width: 576px) {
+    .special,
+    .tzadoller1 {
+        width: 100%;
+    }
+    .logomid {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .twiticon {
+        padding-left: 30px!important;
+    }
+    .bannercont1 {
+        line-height: 50px;
+    }
+    .bannercont {
+        font-size: 32px;
+        padding-top: 142px;
+    }
+    .leftbutton {
+        margin-left: 0;
+        display: contents;
+    }
+    .rightbutton {
+        display: contents;
+    }
+    .header {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .box4 {
+        padding-top: 25px;
+        width: 100%;
+    }
+    .cookimg {
+        padding-top: 28px;
+        padding-left: 14%;
+    }
+    .dishimg {
+        display: none;
+    }
+    .banner {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .box1 {
+        width: 100%;
+    }
+    .guestcont {
+        display: inline-flex;
+        width: 100%;
+        font-size: 19px;
+    }
+    .guestfood {
+        font-size: 16px;
+    }
+    .box {
+        width: 100%;
+        margin-top: 50px;
+        padding-bottom: 32px;
+    }
+    .fine {
+        padding-top: 24px;
+    }
+    .banner1 {
+        padding-bottom: 46px;
+    }
+    .appdivider {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .appdivider1 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .banner2 {
+        padding-bottom: 0;
+    }
+    .banner3,
+    .banner4,
+    .banner5 {
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .box1 {
+        margin-top: 40px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .guest {
+        padding-top: 30px;
+    }
+    .dishimg1,
+    .dishimg2 {
+        display: none;
+    }
+    .box3 {
+        margin-top: 30px;
+    }
+    .box2 {
+        padding-top: 30px;
+    }
+    .decoration {
+        padding-top: 0;
+    }
+    .dishimg1,
+    .dishimg2 {
+        background-position: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    /*col-sm*/
+    .navpadding {
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .iconpadding {
+        display: none;
+    }
+    .bannercont {
+        font-size: 44px;
+        padding-top: 100px;
+    }
+    .bannercont1 {
+        line-height: 60px;
+    }
+    .leftbutton {
+        margin-left: 0;
+        display: contents;
+    }
+    .rightbutton {
+        display: contents;
+    }
+    .header {
+        height: auto;
+        padding-bottom: 70px;
+    }
+    .box4 {
+        padding-top: 50px;
+        width: 100%;
+    }
+    .banner {
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .dishimg {
+        display: none;
+    }
+    .box,
+    .box1 {
+        width: 100%;
+    }
+    .appdivider {
+        margin-top: 60px;
+        width: 100%;
+    }
+    .appdivider1 {
+        width: 100%;
+    }
+    .guestcont {
+        display: inline-flex;
+        width: 100%;
+    }
+    .guest {
+        padding-top: 30px;
+    }
+    .banner4 {
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .dishpadding {
+        padding-right: 15px!important;
+    }
+    .dishimg1,
+    .dishimg2 {
+        margin-top: 50px;
+    }
+    .banner5 {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .dishimg1,
+    .dishimg2 {
+        background-position: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    /*col-md*/
+    .navpadding {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .paddingleft {
+        text-align: right;
+    }
+    .header {
+        height: auto;
+        padding-bottom: 110px;
+    }
+    .bannercont {
+        font-size: 60px;
+    }
+    .leftbutton {
+        margin-left: 0;
+        display: contents;
+    }
+    .rightbutton {
+        display: contents;
+    }
+    .box4 {
+        width: 100%;
+        padding-top: 60px;
+    }
+    .cookimg {
+        padding-left: 11%;
+    }
+    .banner {
+        height: auto;
+        padding-top: 60px;
+    }
+    .dishimg {
+        text-align: center;
+    }
+    .box,
+    .box1 {
+        width: 100%;
+    }
+    .banner4,
+    .banner5 {
+        height: auto;
+        padding-bottom: 80px;
+    }
+    .dishimg1,
+    .dishimg2 {
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .finecont,
+    .fineimg,
+    .tzadoller,
+    .rightcont,
+    .rightcont1,
+    .form {
+        width: 100%;
+    }
+    .bookbutton {
+        margin-right: 0;
+    }
+    .menubutton {
+        margin-left: 0;
+    }
+    .image {
+        width: 32%
+    }
+    .image1,
+    .image2 {
+        width: 34%;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 411px) {
+    .finecont,
+    .fineimg,
+    .tzadoller,
+    .rightcont,
+    .rightcont1,
+    .form {
+        width: 100%;
+    }
+    .bookbutton {
+        margin-right: 0;
+    }
+    .menubutton {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 411px) {}
